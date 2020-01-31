@@ -16,6 +16,23 @@ html {
 /* Sections
    ========================================================================== */
 
+.strawberry-text {
+    font-family: 'Baloo', cursive;
+}
+
+.strawberry-text-skinny {
+  font-family: 'Baloo', cursive;
+  font-weight: lighter;
+}
+
+.forward-right-header {
+  padding-left: 20%;
+}
+
+.forward-right-header2 {
+  padding-left: 40%;
+}
+
 /**
  * Remove the margin in all browsers.
  */
