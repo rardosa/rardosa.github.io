@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Roselle Ardosa">
+    <meta name="description" content="Design and implementation process of MyPhilanthropies volunteer tracker.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MyPhilanthropies Volunteer Tracker</title>
+    <!--Style Sheets Here-->
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <!--Custom Text-->
+    <link href="https://fonts.googleapis.com/css?family=Baloo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="flex items-center justify-between flex-wrap bg-red-600 p-6">
+        <!-- <div class="block lg:hidden">
+        <button class="flex items-center px-3 py-2 border rounded text-white-200 border-white-400 hover:text-green-500 hover:border-green-500">
+            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+        </button>
+        </div> -->
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+        <div class="text-sm lg:flex-grow">
+            <a href="../index.html" class="block mt-4 ml-8 lg:inline-block lg:mt-0 text-base text-red-200 hover:text-white mr-4 focus:text-black">
+            Projects
+            </a>
+            <a href="../about/about.html" class="block mt-4 ml-2 lg:inline-block lg:mt-0 text-base text-red-200 hover:text-white focus:text-black">
+            About Me
+            </a>
+        </div>
+        <div>
+        <a href="../assets/January 2020.pdf" target="_blank" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-red-500 hover:bg-white mt-4 mr-2 lg:mt-0">Resume</a>
+        <a href="../about/contact.html" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-red-500 hover:bg-white mt-4 mr-8 lg:mt-0">Contact</a>
+        </div>
+    </nav>
+    <!--Start project Description-->
+    <div class="flex animated fadeInUp">
+        <!--About Section-->
+        <div class="w-1/6"></div>
+        <div class="w-4/6>">
+            <div class="ml-40 mr-40 mt-24">
+                <h1 class="text-center mb-10 strawberry-text text-red-600 text-4xl">The Background</h1>
+                <p class="mb-10">MyPhilanthropies is a non-profit organization in Irvine, California that promotes connectivity between
+                    project leaders and a network of volunteers. As the scope grew, the company faced a problem with storing and matching
+                    their volunteers with opportunities that fit their skillset.</p>
+                <p>
+                    They decided to partner up with students from UCI to create a brand-new system that supported
+                    their organizational needs. I joined the team as a front-end developer.
+                </p>
+            </div>
+            <!--Team Introduction-->
+            <div class="ml-40 mr-40 mt-16">
+                <h1 class="text-center mb-10 strawberry-text text-red-600 text-4xl">The Team</h1>
+                <p class="mb-10">My team was comprised of six students from Informatics and Computer Science backgrounds.
+                    We worked on this project for roughly 9 weeks from September 2019 to December 2019.</p>
+                <div class="flex text-center">
+                    <div class="w-1/4"></div>
+                    <div class="w-1/4 content-center">
+                        <span class="text-red-400 underline"><p>Front End</p></span>
+                        <ul>
+                            <li>Abdul</li>
+                            <li>Cory</li>
+                            <li>Roselle (me!)</li>
+                        </ul>
+                    </div>
+                    <div class="content-center w-1/4">
+                        <span class="text-red-400 underline"><p>Back End</p></span>
+                        <ul>
+                            <li>Annie</li>
+                            <li>Rymmy</li>
+                            <li>Victoria</li>
+                        </ul>
+                    </div>
+                    <div class="w-1/4"></div>
+                </div>    
+            </div>
+            <!--Problem-->
+            <div class="ml-40 mr-40 mt-16">
+                <h1 class="text-center strawberry-text text-red-600 text-4xl">The Problem</h1>
+                <p class="mt-10 mb-10">We met with our sponsors at their lovely headquarters in Irvine. 
+                    Everyone sat around a round table, laptops out, and began to ask our sponsors questions for our elicitation meeting to start on our requirements.</p>
+                <p class="text-red-400 mb-10">From our meeting, we determined the biggest pain points our clients were facing:</p>
+                <ul class="text-justify list-disc justify-start content-start ml-10">
+                    <li>Excel sheets took too long to fill out.</li>
+                    <li>Programs and events are continuously being added, removed, or changed.</li>
+                    <li>Volunteers had to be manually called or e-mailed for every event, which often led to ghosting.</li>
+                </ul>
+            </div>
+            <!--Research-->
+            <div class="ml-40 mr-40 mt-16">
+                <h1 class="text-center strawberry-text text-red-600 text-4xl">The Research</h1>
+                <p class="mt-10 mb-10">We created <span class="text-red-400">user stories</span> to serve as our requirements for the system.
+                    In order to get a better sense of our stakeholders, we created <span class="text-red-400">personas</span> and <span class="text-red-400">scenarios</span> based on our user stories.
+                </p>
+                <img class="center" src="../assets/myphilanthropies/persona1.png" alt="Example of a persona that we used">
+                <p class="mt-10 mb-10">
+                    Then, we started <span class="text-red-400">storyboarding</span> how users would interact with our web application.
+                </p>
+                <img class="center" src="../assets/myphilanthropies/storyboard.png" alt="Example of a storyboard about a user logging in to our website">
+                <p class="mt-10 mb-10">
+                    Before we started programming anything, we began to design <span class="text-red-400">UML class diagrams</span> and <span class="text-red-400">sequence diagrams</span> to determine the different
+                    parts of the website we needed to create and their functions.
+                </p>
+            </div>
+            <!--Features-->
+            <div class="text-center ml-40 mr-40 mt-16">
+                <h1 class="strawberry-text text-red-600 text-4xl">The Features</h1>
+            </div>
+            <!--Challenges-->
+            <div class="text-center ml-40 mr-40 mt-16">
+                <h1 class="strawberry-text text-red-600 text-4xl">The Challenges</h1>
+            </div>
+            <!--Final Product Gallery-->
+            <div class="text-center ml-40 mr-40 mt-16">
+                <h1 class="strawberry-text text-red-600 text-4xl">The Final Product</h1>
+            </div>
+            <!--Credits and Thanks/Software-->
+            <div class="text-center ml-40 mr-40 mt-16">
+                <h1 class="strawberry-text text-red-600 text-4xl">The Credits</h1>
+            </div>
+        </div>
+        <div class="w-1/6"></div>
+    </div>
+</body>
