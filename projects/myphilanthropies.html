@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">     
 </head>
 <body>
-    <nav class="flex items-center justify-between flex-wrap bg-red-600 p-6">
+    <nav class="flex items-center justify-between flex-wrap bg-red-600 pl-6 pr-6 pb-6">
         <!-- <div class="block lg:hidden">
         <button class="flex items-center px-3 py-2 border rounded text-white-200 border-white-400 hover:text-green-500 hover:border-green-500">
             <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
@@ -117,16 +117,24 @@
                       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
                     </ol>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img class="d-block" src="../assets/myphilanthropies/1-Log In (1).png" alt="First slide">
+                        <img class="center-block d-block" src="../assets/myphilanthropies/1-Log In (1).png" alt="First slide, log in page">
                       </div>
                       <div class="carousel-item">
-                        <img class="d-block" src="../assets/myphilanthropies/2-Sign Up.png" alt="Second slide">
+                        <img class="center-block d-block" src="../assets/myphilanthropies/2-Sign Up.png" alt="Second slide, sign up page">
                       </div>
                       <div class="carousel-item">
-                        <img class="d-block h-100" src="../assets/myphilanthropies/Form-1.jpeg" alt="Third slide">
+                        <img class="center-block d-block h-100" src="../assets/myphilanthropies/Form-1.jpeg" alt="Third slide, personal information input">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="center-block d-block h-100" src="../assets/myphilanthropies/Form-2.jpeg" alt="Fourth slide, contact information input">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="center-block d-block h-100" src="../assets/myphilanthropies/Form-3.jpeg" alt="Fifth slide, confirmation page">
                       </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -138,7 +146,7 @@
                       <span class="sr-only">Next</span>
                     </a>
                   </div>
-                <p class="lg:text-xl text-red-400 font-bold">Sign Up and Log In</p>
+                <p class="mt-10 lg:text-xl text-red-400 font-bold">Sign Up and Log In</p>
                 <p class="ml-10 mt-5 mb-5"> We created a user database that allows for our clients to keep all information about the volunteers in one place.
                     They no longer had to manually input things into an excel sheet such as name, age, and contact information. As soon as volunteers signed up, that data would be stored
                     and be available for the admins to view at any time.
@@ -147,10 +155,47 @@
                     unemployed volunteers could dedicate more time than full-time students.
                     This also added a section which gave admins knowledge on the best way to communicate with volunteers. 
                 </p>
+                <img class="resize-homepage center-block" src="../assets/myphilanthropies/Profile Page.png" alt="Home page of events for volunteers to join">
+                <p class="mt-10 lg:text-xl text-red-400 font-bold">Event Home Page</p>
+                <p class="ml-10 mt-5 mb-5"> 
+                    In order to make viewing event information easier, we created a list of events in the form of cards.
+                    Each card contained the event name, the date, the location, icons for skills needed, and a search bar to make filtering easier.
+                    We also included a navigation sidebar. Home would take users back to this page, inbox would be a in-app messaging system, 
+                    events would lead users to events they've saved or signed up to, and settings would allows users to update their information.
+                </p>
             </div>
             <!--Reflection-->
-            <div class="text-center mt-16">
-                <h1 class="strawberry-text text-red-600 text-4xl">The Lessons Learned</h1>
+            <div class="mt-16">
+                <h1 class="text-center strawberry-text text-red-600 text-4xl">The Lessons Learned</h1>
+                <p class="mt-10 lg:text-xl text-red-400 font-bold">The Technology</p>
+                <p class="ml-10 mt-5"> 
+                    This project had a difficult learning curve. This was the first time I ever worked with HTML/CSS/JavaScript.
+                    I spent countless of hours&#8212days even&#8212just to learn how ajax requests worked using jQuery for the sign up system.
+                    It was especially difficult learning about authentication keys and security measure we needed to secure users' personal information.
+                </p>
+                <p class="ml-10 mt-5 mb-5"> 
+                    Halfway through the project, my team members and I realized that working with frameworks such as React or Angular would have made 
+                    web development so much easier with their various libraries that supported the functionalities we needed to build. 
+                    Coding in vanilla, however, was a painful but essential learning experience.
+                </p>
+                <p class="mt-10 lg:text-xl text-red-400 font-bold">Nontechnical Tech Talk</p>
+                <p class="ml-10 mt-5 mb-5"> 
+                    Our clients are well-versed in fine arts. They are actors, singers, business leaders&#8212not programmers.
+                    They had a vision for the "what" but not the "how". The ability to guide and explain design decisions
+                    became necessary to ensure customer happiness throughout the project. Meetings with our sponsors used a different dictionary
+                    than presenting the project to our classmates.
+                </p>
+                <p class="mt-10 lg:text-xl text-red-400 font-bold">Sprinting CAN Be Fun</p>
+                <p class="ml-10 mt-5 mb-5"> 
+                    The quarter system is unforgiving. Even more so when working with a project of this size with real clients.
+                    It became important that every single person had a role and was aware of what others were doing so no two people overlapped.
+                    Communication, a skill that many members in group work struggle with, played a vital role in keeping things on track.
+                </p>
+                <p class="ml-10 mt-5 mb-5"> 
+                    Sprint backlogs and reports became second-nature to us. Slack messages were continously being exchanged 24/7 as we developped and bug fixed 
+                    on the same day. Pushing and pulling from GitHub repositories, and solving merge conflicts, became as easy pressing CTRL + S in 
+                    code editors.
+                </p>
             </div>
         </div>
         <div class="lg:w-1/6 md:w-1/12"></div>

@@ -1,5 +1,27 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
+.carousel-item {
+  height: 600px;
+  max-height: 600px;
+  width: auto;
+  object-fit: cover;
+  align-items: center;
+}
+
+.carousel img {
+
+  margin: auto;
+
+}
+
+.resize-homepage {
+  height: 600px;
+  width: auto;
+  object-fit: cover;
+  align-items: center;
+  margin: auto;
+}
+
 /* Document
    ========================================================================== */
 
