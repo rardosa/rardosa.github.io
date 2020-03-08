@@ -23,6 +23,10 @@
   margin: auto;
 }
 
+.numbered-list {
+  list-style-type: decimal;
+}
+
 /* Document
    ========================================================================== */
 
