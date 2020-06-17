@@ -16,8 +16,28 @@ html {
 /* Sections
    ========================================================================== */
 
+li {
+  list-style-type: none;
+}
+
+li:hover {
+  background-color: #fed7d7;
+}
+
+.left-indent {
+  margin-left: 12em;
+}
+
 .strawberry-text {
-    font-family: 'Baloo', cursive;
+  font-family: 'Baloo', cursive;
+}
+
+.rounded-font {
+  font-family: 'Baloo Da 2', cursive;
+}
+
+.header-font-size {
+  font-size: 68em;
 }
 
 .strawberry-text-skinny {
@@ -48,6 +68,19 @@ div.container5 img {
   display: flex;
   justify-content: center;
   flex-direction: row;
+}
+
+.container-1 {
+  height: 200px;
+  position: relative;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 35%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 /**

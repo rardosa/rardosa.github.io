@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E53E3E;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'Bauhaus93';}
+	.st3{font-size:139.3633px;}
+	.st4{font-size:148.5937px;}
+	.st5{fill:#E53E3E;stroke:#FFFFFF;stroke-miterlimit:10;}
+</style>
+<g>
+	<ellipse class="st0" cx="155.75" cy="154.25" rx="129.75" ry="120.75"/>
+	<path class="st1" d="M155.75,34c34.54,0,67,12.52,91.42,35.25c24.4,22.71,37.83,52.9,37.83,85s-13.44,62.29-37.83,85
+		c-24.42,22.73-56.88,35.25-91.42,35.25s-67-12.52-91.42-35.25c-24.4-22.71-37.83-52.9-37.83-85s13.44-62.29,37.83-85
+		C88.75,46.52,121.21,34,155.75,34 M155.75,33C83.81,33,25.5,87.29,25.5,154.25S83.81,275.5,155.75,275.5S286,221.21,286,154.25
+		S227.69,33,155.75,33L155.75,33z"/>
+</g>
+<text transform="matrix(1.2687 0 0 1 64.2373 170.1592)" class="st1 st2 st3">R</text>
+<text transform="matrix(1.1766 0 0 1 148.2158 222.8516)" class="st1 st2 st4">a</text>
+<path class="st5" d="M328.5,343.5"/>
+</svg>
