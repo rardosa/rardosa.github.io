@@ -10,6 +10,8 @@
     
     <!--Custom Style Sheet-->
     <link rel="stylesheet" href="bootstrap-4.5.0\dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-4.5.0/dist/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="bootstrap-4.5.0/dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="experiment-3.css">
     <!--Custom Icon-->
     <link rel="icon" href="assets/logo_AAW_icon.ico">
@@ -32,18 +34,28 @@
     <script src="experiment-3.js"></script>
 </head>
 <body id="background-color">
+  
   <!--Navbar-->
-  <ul class="nav justify-content-end fixed-top" id="navbar-customize">
-    <li class="nav-item navbar-item-customize mr-4">
-      <a class="nav-link default-color" href="#" id="project-nav">Projects</a>
-    </li>
-    <li class="nav-item navbar-item-customize mr-4">
-      <a class="nav-link default-color" href="#" id="about-nav">About</a>
-    </li>
-    <li class="nav-item navbar-item-customize">
-      <a class="nav-link default-color" href="assets/June 2020 Resume.pdf" target="_blank">Resume&ensp;<i class="fas fa-external-link-alt"></i></a>
-    </li>
-  </ul>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav justify-content-end fixed-top" id="navbar-customize">
+        <li class="nav-item navbar-item-customize mr-4">
+          <a class="nav-link color-blue" href="#" id="project-nav">Projects</a>
+        </li>
+        <li class="nav-item navbar-item-customize mr-4">
+          <a class="nav-link color-blue" href="#" id="about-nav">About</a>
+        </li>
+        <li class="nav-item navbar-item-customize">
+          <a class="nav-link color-blue" href="assets/June 2020 Resume.pdf" target="_blank">Resume&ensp;<i class="fas fa-external-link-alt"></i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+ 
   <!--Landing Page-->
   <div class="container-fluid spaces-in-between" id="landing-page">
     <div class="row">
@@ -125,16 +137,22 @@
       <div class="col-md-3"></div>
       <div class="col-md-6 animate__animated animate__fadeInDown">
         <h1 class="color-red name-head row-space" id="marker-2">About Me</h1>
-        <img class="float-right rounded-img ml-5" src="assets/RoselleCropped.jpg" height="400" alt="Picture of Roselle Ardosa and her dog">
-        <p class="paragraph-font">Hi, I'm Roselle! I studied UX at the University of California, Irvine because I'm interested in 
-          the idea of making products for users, by users. In my free time, I love playing video games, cooking, baking, eating,
-          and doodling designs. I also absolutely love dogs and own a sweet Chihuahua mix.
-        </p>
-        <br>
-        <p class="paragraph-font">Originally, I was a Computer Game Science major because I was interested in making videogames. 
-          But, I quickly realized that I enjoyed creating experiences more than the technical aspects. UX is the perfect balance
-          of creativity and design backed by research to produce an accessible application with a purpose.
-        </p>
+        <div class="row">
+          <div class="col-md-6">
+            <p class="paragraph-font">Hi, I'm Roselle! I studied UX at the University of California, Irvine because I'm interested in 
+              the idea of making products for users, by users. In my free time, I love playing video games, cooking, baking, eating,
+              and doodling designs. I also absolutely love dogs and own a sweet Chihuahua mix.
+            </p>
+            <br>
+            <p class="paragraph-font">Originally, I was a Computer Game Science major because I was interested in making videogames. 
+              But, I quickly realized that I enjoyed creating experiences more than the technical aspects. UX is the perfect balance
+              of creativity and design backed by research to produce an accessible application with a purpose.
+            </p>
+          </div>
+          <div class="col-md-6 d-flex justify-content-center">
+            <img class="rounded-img" src="assets/RoselleCropped.jpg" height="400" alt="Picture of Roselle Ardosa and her dog">
+          </div>
+        </div>
       </div>
       <div class="col-md-3"></div>
     </div>
