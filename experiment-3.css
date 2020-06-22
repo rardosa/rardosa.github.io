@@ -278,6 +278,27 @@ ul.nav li.active a {
 	justify-content:center;
 }
 
+.bg-pastel-yellow {
+	background-color:#F6F5DF;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.bg-pastel-red {
+	background-color: #FFD6DA;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.bg-pastel-green {
+	background-color: #D6FFDF;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
 .blue-title {
 	color: #488FE8;
 }
