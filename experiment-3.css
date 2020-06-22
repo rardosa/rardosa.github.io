@@ -279,18 +279,25 @@ ul.nav li.active a {
 }
 
 .blue-title {
-	color: #5c7aff;
+	color: #488FE8;
 }
 
 
 .date-text {
-	font-size: 20px;
+	font-size: 18px;
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 500;
 }
 
 .write-up-text {
-	font-size: 20px;
+	font-size: 18px;
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 300;
+}
+
+#return-button {
+	font-weight: 400;
+    text-align: center;
+	font-size: 22px;
+	text-decoration: none;
 }

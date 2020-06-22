@@ -21,3 +21,5 @@ $(document).ready(function (){
         }, 1000);
     })
 })
+
+$('.carousel').carousel();
