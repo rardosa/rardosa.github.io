@@ -311,6 +311,10 @@ ul.nav li.active a {
 	color: #458052;
 }
 
+.red-title {
+	color: #ED7180;
+}
+
 .date-text {
 	font-size: 18px;
 	font-family: 'Ubuntu', sans-serif;
